@@ -1,8 +1,74 @@
 <html>
     <head>
-        <title> Hello world </title>
+        <title> Welcome to SABA's world </title>
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
     </head>
+    <style>
+        body{
+            font-family: 'Amatic SC', cursive;
+            font-size: 40px ;
+            background-image: url("bgg.jpg");
+            background-size: cover;
+            }
+        .test1{
+            text-align: center;
+            background-color:rgb(250, 255, 180);
+            margin-left: 20%;
+            margin-right: 20%;
+            }
+        td {
+            background-color: rgb(247, 227, 202) ;
+            font-size: 30px ;
+            text-align: center;
+        } 
+        th {
+            background-color: rgb(217, 255, 147) ;
+            font-size: 40px ;
+
+        } 
+        table{
+            width:60%;
+        }
+
+            
+    </style>
     <body>
-        <p>Mai SABA</p>
+        <h1 class="test1"><b><p>SABA WAREHOUSE</p></b></h1>
+        <table align= "center" cellpadding=“1px”>
+            <!-- table เป็น Tag ที่ใช้เพื่อจัดข้อความออกเป็นตารางซึ่งภายในประกอบไปด้วย -->
+            <!-- border = "1" เป็นการกำหนดเส้นของตาราง -->
+                <tr> <!-- Table Row (Tag tr) ใช้กำหนดส่วนที่เป็นแถวตามยาว -->
+                    <th>Name</th> <!-- Table Heading (Tag th) ใช้กำหนดส่วนหัวตาราง มีลักษณะเป็นตัวหนาและอยู่ตรงกลาง -->
+                    <th>Unit</th>
+                    <th>Price(unit)</th>
+                    <th>Picture</th>
+                </tr>
+                <tr>
+                    <td align="center">Milk tea</td> <!-- Table Data (Tag td) ใช้กำหนดส่วนเนื้อหาในตาราง -->
+                    <td align="center">2</td>
+                    <td align="center">49 bath</td>
+                    <td><img align="center" src="pic.png" width="90px"></td>
+                </tr>
+                <tr>
+                    <td align="center">ninja tea</td>
+                    <td align="center">0</td>
+                    <td align="center">89 bath</td>
+                    <td><img src="pic2.gif" width="90px"></td>
+                </tr>
+                <tr>
+                    <td align="center">Saba fish</td>
+                    <td align="center">10</td>
+                    <td align="center">1089 bath</td>
+                    <td><img src="pic3.png" width="90px"></td>
+                </tr>
+                <tr>
+                    <td align="center">Saba sushi</td>
+                    <td align="center">90</td>
+                    <td align="center">99 bath</td>
+                    <td><img src="pic4.png" width="90px"></td>
+                </tr>
+            </table>
+            <br>
+            <a href="https://wip.camp/">More infomation Click here</a><p></p>
     </body>
 </html>
